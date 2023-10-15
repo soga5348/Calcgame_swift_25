@@ -140,16 +140,17 @@
                         <outlet property="questionLabel" destination="e8V-Hs-0Ag" id="dsN-M3-RxL"/>
                         <outlet property="resultLabel" destination="9PH-ua-Wz1" id="WeO-GI-lRf"/>
                         <outlet property="timeLabel" destination="Q7t-tb-hOy" id="fGL-Lm-Nmm"/>
+                        <segue destination="60Z-3V-ySA" kind="show" identifier="result" id="Aa0-sm-lKm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tsm-Q5-O2W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1013" y="4"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="avT-BX-Vtb">
             <objects>
-                <viewController id="60Z-3V-ySA" sceneMemberID="viewController">
+                <viewController id="60Z-3V-ySA" customClass="ResultViewController" customModule="Calcgame2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ex0-t8-atm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,6 +172,10 @@
                                 <rect key="frame" x="137" y="753" width="120" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="トップへ戻る"/>
+                                <connections>
+                                    <action selector="onBackTop:" destination="60Z-3V-ySA" eventType="touchUpInside" id="TWa-Aa-ePW"/>
+                                    <action selector="onBackYop:" destination="60Z-3V-ySA" eventType="touchUpInside" id="vM8-p9-yEf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M8n-QD-5fh"/>
@@ -181,6 +186,10 @@
                             <constraint firstItem="eYq-Z5-uOL" firstAttribute="centerY" secondItem="ex0-t8-atm" secondAttribute="centerY" id="wMq-t9-z9F"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="riV-Oj-5eB"/>
+                    <connections>
+                        <outlet property="recordLabel" destination="eYq-Z5-uOL" id="tjT-3H-HgY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1bi-do-J3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
