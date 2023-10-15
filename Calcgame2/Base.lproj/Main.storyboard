@@ -177,17 +177,26 @@
                                     <action selector="onBackYop:" destination="60Z-3V-ySA" eventType="touchUpInside" id="vM8-p9-yEf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最高記録　10P" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0v-Mw-1jx">
+                                <rect key="frame" x="117.33333333333333" y="673" width="158.66666666666669" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M8n-QD-5fh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="v0v-Mw-1jx" firstAttribute="centerX" secondItem="ex0-t8-atm" secondAttribute="centerX" id="9Fv-ws-xYY"/>
                             <constraint firstItem="M8n-QD-5fh" firstAttribute="bottom" secondItem="1oK-ws-G21" secondAttribute="bottom" constant="30" id="LmF-7B-fo6"/>
                             <constraint firstItem="eYq-Z5-uOL" firstAttribute="centerX" secondItem="ex0-t8-atm" secondAttribute="centerX" id="OHc-3P-USD"/>
                             <constraint firstItem="eYq-Z5-uOL" firstAttribute="centerY" secondItem="ex0-t8-atm" secondAttribute="centerY" id="wMq-t9-z9F"/>
+                            <constraint firstItem="1oK-ws-G21" firstAttribute="top" secondItem="v0v-Mw-1jx" secondAttribute="bottom" constant="50" id="wl2-Xl-xkG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="riV-Oj-5eB"/>
                     <connections>
+                        <outlet property="highestRecordLabel" destination="v0v-Mw-1jx" id="qZ1-Cr-8lD"/>
                         <outlet property="recordLabel" destination="eYq-Z5-uOL" id="tjT-3H-HgY"/>
                     </connections>
                 </viewController>

@@ -34,6 +34,7 @@
 		650584BF2ADA8A370044BE5B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		650584C52ADAC2C00044BE5B /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correct.mp3; path = "../../../../Downloads/Quiz-Correct_Answer02-mp3/correct.mp3"; sourceTree = "<group>"; };
 		650584C72ADAC2D40044BE5B /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = incorrect.mp3; path = "../../../../Downloads/Quiz-Wrong_Buzzer02-mp3/incorrect.mp3"; sourceTree = "<group>"; };
+		650584C92ADBD7130044BE5B /* rectangle_large_type_2_021dcb745767f5852d9939975e62e43e.jpg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = rectangle_large_type_2_021dcb745767f5852d9939975e62e43e.jpg.webp; path = ../../../../Downloads/rectangle_large_type_2_021dcb745767f5852d9939975e62e43e.jpg.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				650584A62AD7B92D0044BE5B /* AppDelegate.swift */,
 				650584A82AD7B92D0044BE5B /* SceneDelegate.swift */,
 				650584AA2AD7B92D0044BE5B /* ViewController.swift */,
+				650584C92ADBD7130044BE5B /* rectangle_large_type_2_021dcb745767f5852d9939975e62e43e.jpg.webp */,
 				650584AC2AD7B92D0044BE5B /* Main.storyboard */,
 				650584B22AD7B92F0044BE5B /* Assets.xcassets */,
 				650584B42AD7B92F0044BE5B /* LaunchScreen.storyboard */,
@@ -320,6 +322,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,6 +351,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

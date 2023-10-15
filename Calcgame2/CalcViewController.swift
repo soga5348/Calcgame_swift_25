@@ -2,7 +2,7 @@
 //  CalcViewController.swift
 //  Calcgame2
 //
-//  Created by soga syunto on 2023/10/12.
+//  Created by soga syunto on 2023/10/16.
 //
 
 import UIKit
@@ -24,6 +24,8 @@ class CalcViewController: UIViewController {
     var point = 0
     var time = 20
     var timer:Timer?
+    
+    
     
     
     
